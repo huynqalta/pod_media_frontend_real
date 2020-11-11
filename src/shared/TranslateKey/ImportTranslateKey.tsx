@@ -1,0 +1,9 @@
+export const UserTranslateKey = require("./UsersTranslate.json");
+export const DevicesTranslatekey = require("./DevicesTranslatekey.json");
+export const LoginTranslateKey = require("./LoginTranslateKey.json");
+export const CustomersTranslateKey = require("./CustomersTranslateKey.json");
+export const ServerTranslateKey = require("./ServerTranslateKey.json");
+export const CommonTranslateKey = require("./CommonTranslateKey.json");
+export const SurveyTranslateKey = require("./SurveyTranslateKey.json");
+export const CampaignTranslateKey = require("./CampaignTranslateKey.json");
+export const LocationTranslateKey = require("./LocationTranslateKey.json");

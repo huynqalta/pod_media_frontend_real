@@ -1,0 +1,11 @@
+.list-devices{
+    input{
+        border: 1px solid #007bff;
+        border-radius: 3px;
+        width: 90%;
+        margin-right: 10px;
+        &:focus{
+            outline: none;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+
+
+.button-component {
+  
+  font-size: 15px;
+  font-weight: 600 !important;
+  background: #238dc1 !important;
+  color: #ffffff;
+  text-transform: capitalize;
+  height: 45px;
+  border-radius: 500px !important;
+  border: 2px solid transparent !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 188px;
+  width: auto;
+}
+.button-component .icon {
+  font-size: 15px;
+  margin-right: 10px;
+}
+.button-component.btn-lg {
+  width: 300px;
+}
+.button-component.btn-lg .icon {
+  margin-right: 18px;
+}
+.button-component.btn-secondary {
+  background: #e4e4e4 !important;
+  color: #636a6a;
+}
+.button-component.btn-secondary:hover, .button-component.btn-secondary:focus {
+  color: #636a6a;
+}
+.button-component.btn-secondary:disabled {
+  color: #636a6a;
+}
+.button-component:focus {
+  outline: 0;
+  border: 2px solid #cbd2d6;
+}
+.button-component:not(:disabled) {
+  cursor: pointer;
+}
+.button-component:disabled {
+  opacity: 0.7;
+  cursor: no-drop;
+}
+.button-component .anticon {
+  vertical-align: 0 !important;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,81 @@
+@mixin border-none {
+  border: none !important;
+}
+.custom-collapse {
+  @include border-none;
+  background-color: transparent;
+    h6{
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 19.54px;
+    }
+  .rowDetailDevice{
+    display: flex;
+    margin:0px 2vw 0px 17px;
+    p{
+      min-width: 33%;
+      font-size: 16px; 
+      margin: 0px;
+      line-height: 33px;
+      font-weight: 500;
+    }
+    span{
+      font-size: 16px;
+      line-height: 33px;
+    }
+  }
+  .rowDevice_left{
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+  }
+  .rowDevice_right{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+  }
+
+  .ant-collapse-item {
+    @include border-none;
+    margin-bottom: 13px;
+  }
+  .ant-collapse-content {
+    @include border-none;
+    background: var(--bg-collapse-content);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    &-box {
+      padding: 27px !important;
+    }
+  }
+  .ant-collapse-header {
+    background: var(--bg-collapse);
+    padding: 25px 27px !important;
+    .ant-collapse-arrow svg {
+      color: var(--bg-collapse-arrow);
+    }
+    .header-custom-collapse {
+      h5 {
+        width: 30%;
+        font-size: 18px;
+       
+      }
+      h5,
+      h6 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    &::before {
+      content: "";
+      width: 7px;
+      height: 100%;
+      background: var(--bg-collapse-1);
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-radius: 15px;
+    }
+  }
+}

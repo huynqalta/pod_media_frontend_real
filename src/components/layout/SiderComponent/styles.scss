@@ -1,0 +1,171 @@
+@import "../../../assets/scss/_variables.scss";
+
+$color-theme: #fff; // màu nền
+$color-theme-active: #6CB6DD; // màu nền active
+$text-color-active: #fff; // màu chữ khi active
+$text-color-theme: #3333337a;  // màu chữ
+$font-size: 18px;
+$font-size-icon: 18px;
+$width-icon: 10px;
+
+// collapse
+.ant-layout-sider-collapsed {
+  .ant-menu .ant-menu-item span {
+    display: none;
+  }
+  .ant-menu-submenu {
+    &-title {
+      span {
+        display: none;
+      }
+    }
+  }
+}
+
+.siderComponent {
+  z-index: 2;
+  box-shadow: -6px -6px 15px rgba(247, 247, 247, 0.25), 6px 6px 15px 2px rgba(108, 182, 221, 0.25);
+  background: $color-theme !important;
+  overflow: 'auto';
+  height: '100vh';
+  position: 'fixed';
+  left: 0;
+  .anticon-close.icon-custom {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .anticon.anticon-menu.icon-custom{
+      font-size: 25px;
+    }
+  }
+  .logo {
+    height: 165px;
+    width: calc(225px - 1.5rem) !important;
+    padding: 2.5rem;
+    &.collapsed {
+      width: 80px !important;
+      img {
+        width: 100%;
+        object-fit: contain;
+        // display: none;
+      }
+    
+    }
+   
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    img {
+      
+      object-fit: contain;
+      padding: 8px 0;
+      width: 100%;
+    }
+  }
+  //text
+  a.item-label{
+    transition: unset !important;
+  }
+  .ant-menu-dark {
+    background: transparent !important;
+  }
+  .ant-menu-sub {
+    background: $color-theme !important;
+  }
+
+  .ant-menu {
+    // menu no child
+    .ant-menu-item {
+      i,
+      .icon-label {
+        text-align: center;
+        font-size: $font-size-icon;
+        color: $text-color-theme;
+      }
+      span a.item-label {
+        font-weight: 500;
+        font-size: $font-size;
+        color: $text-color-theme;
+     
+      }
+    }
+
+    //menu with sub
+    .ant-menu-submenu {
+      .ant-menu-submenu-title {
+        color: $text-color-theme;
+        .label-menu-item {
+          font-size: $font-size;
+          font-weight: 500;
+        }
+        
+        //arrow menu
+        .ant-menu-submenu-arrow {
+          &::before,
+          &::after {
+            width: $width-icon;
+            height: $width-icon/5.3333;
+            background: $text-color-theme;
+          }
+        }
+      }
+      &.ant-menu-submenu-open{
+        .ant-menu-submenu-title {
+          color: #333333;
+          .label-menu-item{
+            color: #333333;
+          }
+        }
+      }
+      //arrow - when open submenu
+      &.ant-menu-submenu-inline {
+        &.ant-menu-submenu-open > .ant-menu-submenu-title .ant-menu-submenu-arrow {
+          transform: translateY(-2px);
+          &::before {
+            transform: rotate(45deg) translateX(4px);
+          }
+          &::after {
+            transform: rotate(-45deg) translateX(-4px);
+          }
+        }
+        & > .ant-menu-submenu-title .ant-menu-submenu-arrow {
+          transform: translateY(4px);
+          &::before {
+            transform: rotate(-45deg) translateX(4px);
+          }
+          &::after {
+            transform: rotate(45deg) translateX(-4px);
+          }
+        }
+      }
+      //arrow - when close submenu
+    }
+
+    //hover item
+    .ant-menu-item-active,
+    .ant-menu-item-selected {
+      background: $color-theme-active !important;
+      color: $text-color-active !important;
+
+      & > span > a,
+      & > .anticon {
+        color: $text-color-active !important;
+      }
+      .icon-label {
+        color: $text-color-active;
+      }
+      span .item-label {
+        color: $text-color-active !important;
+      }
+    }
+
+    //menu active
+  }
+}

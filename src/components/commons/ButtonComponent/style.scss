@@ -1,0 +1,75 @@
+@import "../../../assets/scss/variables";
+
+.button-component {
+  &.btn-component-cancel , &.btn-component-cancel:hover{
+    color: #6CB6DD  !important ;
+    border: 1px solid #6CB6DD  !important ;
+    background-color: #fafbfc;
+   
+  }
+  display: inline-block !important;
+  border: none !important;
+  background-color: $color-theme;
+  border-radius: 15px !important;
+  font-weight: 500 !important ;
+  color: #fafbfc !important ;
+  letter-spacing: 1px !important;
+  padding: 8px 16px ;
+  max-height: 45px;
+  font-size: 16px !important;
+  cursor: pointer;
+  min-width: 120px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  &:hover {
+    background-color: $color-theme;
+  }
+  &:focus,
+  &:active {
+    box-shadow: none !important;
+  }
+  &-blue {
+    background-color: $color-theme;
+    &:hover {
+      background-color: $color-theme;
+    }
+  }
+
+  .icon {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+  &.btn-lg {
+    //padding: 1px 115px;
+    width: 300px;
+
+    .icon {
+      margin-right: 18px;
+    }
+  }
+
+  &:focus {
+    outline: 0;
+    border: 2px solid #cbd2d6;
+  }
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: no-drop;
+  }
+
+  .anticon {
+    vertical-align: 0 !important;
+  }
+  .anticon-loading {
+    font-size: 18px !important;
+  }
+}

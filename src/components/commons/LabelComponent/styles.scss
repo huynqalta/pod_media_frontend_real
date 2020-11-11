@@ -1,0 +1,12 @@
+@import "~@assets/scss/_variables.scss";
+.wrap-label-custom {
+  display: inline-block;
+  .label-custom {
+    font-weight: bold;
+    
+  }
+  .require {
+    margin-left: 0.5rem;
+    color: $color-required;
+  }
+}

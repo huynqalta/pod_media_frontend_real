@@ -1,0 +1,134 @@
+.locationPage {
+  width: 95%;
+  margin: auto;
+  .locationPage_title {
+    text-align: right;
+    margin-bottom: 1vw;
+  }
+
+  .locationPage_field {
+    display: flex;
+    form.ant-form.ant-form-horizontal {
+      display: flex;
+    }
+    .ant-row.ant-form-item {
+      margin-right: 2vw;
+    }
+  }
+
+  .locationPage_list {
+    .ant-card-body {
+      padding: 0px;
+    }
+    .ant-card.ant-card-bordered {
+      border-radius: 16px;
+      padding: 0px !important;
+      margin-bottom: 1vw;
+      box-shadow: -6px -6px 15px rgba(247, 247, 247, 0.25), 6px 6px 15px 2px rgba(108, 182, 221, 0.25);
+    }
+    .ant-card-body {
+      padding: 0px;
+    }
+    img {
+      border-radius: 16px 0px 0px 16px;
+      height: 8vw;
+      width: 12vw;
+    }
+  }
+
+  .locationPage_card {
+    display: flex;
+    align-items: center;
+    height: 8vw;
+    .locationPage_cardAdrress {
+      margin-left: 2vw;
+      width: 35%;
+      h3 {
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 29px;
+        margin: 0px;
+      }
+      p {
+        line-height: 31px;
+        font-size: 18px;
+    }
+    }
+    svg.svg-inline--fa.fa-map-marker-alt.fa-w-12 {
+      margin-right: 5px;
+    }
+    p.status {
+      margin-right: 3vw;
+      color: #1d8bca;
+      width: 15%; 
+      text-align: center;
+      font-weight: 700;
+      font-size: 15px;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    .locationPage_cardAction {
+      margin:0px 2vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      button {
+        margin-left: 10px;
+      }
+      span {
+        font-size: 15px;
+        font-weight: 500;
+      }
+      svg.svg-inline--fa.fa-map-marked-alt.fa-w-18 {
+        font-size: 27px;
+        color: #1d8bca;
+        &:hover{
+          cursor: pointer;
+        }
+      }
+      svg.svg-inline--fa.fa-trash.fa-w-14{
+        color:#e6102d;
+        &:hover{
+          cursor: pointer;
+        }
+      } 
+    }
+  }
+  .locationPage_pagination {
+    text-align: right;
+    margin: 1vw 0 0 0;
+  }
+  button.ant-btn {
+    background-color: white;
+    border-radius: 999px;
+    color: #1d8bca;
+    border: 1px solid #1d8bca;
+    &:hover {
+      background: #1d8bca;
+      border-radius: 999px;
+      color: white;
+    }
+  }
+
+  button.ant-btn.ant-btn-primary {
+    background: #1d8bca;
+    border-radius: 999px;
+    color: white;
+    width: 120px;
+    height:44px;
+    &:hover {
+      color: #1d8bca;
+      border: 1px solid #1d8bca;
+      background-color: white;
+    }
+  }
+  button.ant-btn.ant-btn-dangerous{
+    color: red;
+    border: 1px solid;
+    &:hover{
+      color:white;
+      background-color:red;
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "REQUIRE": {
+    "USA": "is require!",
+    "VNM": "không được để trống!"
+  },
+  "FULL_NAME": {
+    "USA": "Full name",
+    "VNM": "Họ & tên"
+  },
+  "AGE": {
+    "USA": "Age",
+    "VNM": "Tuổi"
+  },
+  "SEX": {
+    "USA": "Sex",
+    "VNM": "Giới tính"
+  },
+  "PHONE": {
+    "USA": "Number phone",
+    "VNM": "Số điện thoại"
+  },
+  "ADDRESS": {
+    "USA": "Address",
+    "VNM": "Địa chỉ"
+  },
+  "AVATAR": {
+    "USA": "Avatar",
+    "VNM": "Ảnh đại diện"
+  },
+  "CODE": {
+    "USA": "Code",
+    "VNM": "Code"
+  },
+  "MALE": {
+    "USA": "Male",
+    "VNM": "Nam"
+  },
+  "FEMALE": {
+    "USA": "Female",
+    "VNM": "Nữ"
+  },
+  "OTHER": {
+    "USA": "Other",
+    "VNM": "Khác"
+  },
+  "BTN_EDIT": {
+    "USA": "Edit",
+    "VNM": "Cập nhật"
+  },
+  "BTN_DETAIL": {
+    "USA": "Detail",
+    "VNM": "Chi tiết"
+  },
+  "BTN_DEL": {
+    "USA": "Delete",
+    "VNM": "Xoá"
+  },
+  "BTN_CANCEL": {
+    "USA": "Cancel",
+    "VNM": "Huỷ bỏ"
+  },
+  "BTN_ADD": {
+    "USA": "Add",
+    "VNM": "Thêm"
+  },
+  "CustomerNotFound": {
+    "USA": "Custormer not found.",
+    "VNM": "Không tìm thấy khác hàng."
+  },
+  "DeleteCustomerSuccess": {
+    "USA": "Delete customer success.",
+    "VNM": "Xóa khách hàng thành công."
+  },
+  "UpdateCustomerSuccess": {
+    "USA": "Update customer success.",
+    "VNM": "Cập nhật thông tin khách hàng thành công."
+  },
+  "DEVICE_NAME": {
+    "USA": "Device Name",
+    "VNM": "Tên thiết bị"
+  },
+  "TEMP": {
+    "USA": "Temp",
+    "VNM": "Nhiệt độ"
+  },
+  "WEIGHT": {
+    "USA": "Weight",
+    "VNM": "Cân nặng"
+  },
+  "HEIGHT": {
+    "USA": "Height",
+    "VNM": "Chiều cao"
+  },
+  "HEART": {
+    "USA": "Heart",
+    "VNM": "Nhịp tim"
+  },
+  "ACTION": {
+    "USA": "Action",
+    "VNM": "Thao tác"
+  },
+  "SURVEY": {
+    "USA": "Survey",
+    "VNM": "Khảo sát"
+  },
+  "SHOW_SURVEY": {
+    "USA": "Show Survey",
+    "VNM": "Xem Khảo sát"
+  },
+  "LIST_OF_LOCATION": {
+    "USA": "List of location",
+    "VNM": "Danh sách địa điểm"
+  },
+  "DEVICE_GROUP_NAME": {
+    "USA": "Device Group Name",
+    "VNM": "Tên nhóm thiết bị"
+  }
+}

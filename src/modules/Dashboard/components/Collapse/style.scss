@@ -1,0 +1,50 @@
+@mixin border-none {
+  border: none !important;
+}
+.custom-collapse {
+  @include border-none;
+  background-color: transparent;
+  .ant-collapse-item {
+    @include border-none;
+    margin-bottom: 13px;
+  }
+  .ant-collapse-content {
+    @include border-none;
+    background: var(--bg-collapse-content);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    &-box {
+      padding: 27px !important;
+    }
+  }
+  .ant-collapse-header {
+    background: var(--bg-collapse);
+    padding: 25px 27px !important;
+    .ant-collapse-arrow svg {
+      color: var(--bg-collapse-arrow);
+    }
+    .header-custom-collapse {
+      h5 {
+        width: 30%;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      h5,
+      h6 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    &::before {
+      content: "";
+      width: 7px;
+      height: 100%;
+      background: var(--bg-collapse-1);
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-radius: 15px;
+    }
+  }
+}

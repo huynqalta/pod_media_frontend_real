@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: "Roboto Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: local("Roboto Regular"), local("Roboto-Regular"),
+      url("../assets/font/Roboto/Roboto-Regular.ttf") format("truetype");
+  }
+  
+  /* Roboto bold */
+  @font-face {
+    font-family: "Roboto Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: local("Roboto Bold"), local("Roboto-Bold"),
+      url("../assets/font/Roboto/Roboto-Bold.ttf") format("truetype");
+  }
+  
+  /* Helvetica Neue */
+  @font-face {
+    font-family: "Helvetica Neue";
+    src: local("Helvetica Neue"), local("Helvetica Neue"),
+      url("../assets/font/HelveticaNeue/helveticaneue.ttf") format("truetype");
+  }
+  

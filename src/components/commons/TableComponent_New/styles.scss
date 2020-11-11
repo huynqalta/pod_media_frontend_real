@@ -1,0 +1,56 @@
+@import "../../../assets/scss/variables";
+
+.table-component-custom {
+  .form-custom {
+    display: flex;
+
+    .ant-form-item {
+      // width: 100%;
+      margin: 0 15px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &.btn-submit,
+      &.checked {
+        display: flex;
+        margin-top: auto;
+      }
+    }
+  }
+
+  //btn-component
+  .fw-btn-fill {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 44px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fafbfc;
+    letter-spacing: 1px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 9;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .ant-table {
+    font-size: 16px;
+  }
+  .ant-table-thead > tr > th {
+    text-transform: capitalize;
+  }
+ 
+}

@@ -1,0 +1,158 @@
+{
+  "TITLE": {
+    "USA": "List Device",
+    "VNM": "Danh Sách Thiết Bị"
+  },
+  "ADD_DEVICE": {
+    "USA": "Add Device",
+    "VNM": "Thêm Thiết Bị"
+  },
+  "SESSION": {
+    "USA": "Session",
+    "VNM": "Phần"
+  },
+  "NAME_SESSION": {
+    "USA": "Name",
+    "VNM": "Tên"
+  },
+  "TITLE_SESSION": {
+    "USA": "Title",
+    "VNM": "Tiêu đề"
+  },
+  "DESCRIPTION_SESSION": {
+    "USA": "Description",
+    "VNM": "Mô tả"
+  },
+  "ACTION": {
+    "USA": "Action",
+    "VNM": "Hành động"
+  },
+  "LIST_QUESTION": {
+    "USA": "List question",
+    "VNM": "Danh sách câu hỏi"
+  },
+  "UPDATE": {
+    "USA": "Update",
+    "VNM": "Cập nhật"
+  },
+  "DELETE": {
+    "USA": "Delete",
+    "VNM": "Xóa"
+  },
+  "DETAIL": {
+    "USA": "Detail",
+    "VNM": "Chi tiết"
+  },
+  "ADD": {
+    "USA": "Add",
+    "VNM": "Thêm"
+  },
+  "CANCEL": {
+    "USA": "Cancel",
+    "VNM": "Hủy"
+  },
+  "ADD_SESSION": {
+    "USA": "Add session",
+    "VNM": "Thêm phần"
+  },
+  "EDIT_SESSION": {
+    "USA": "Edit session",
+    "VNM": "Sửa phần"
+  },
+  "EDIT_QUESTION": {
+    "USA": "Edit question",
+    "VNM": "Sửa câu hỏi"
+  },
+  "DELETE_SESSION": {
+    "USA": "Delete session",
+    "VNM": "Xóa phần"
+  },
+  "CONFIRM_DELETE_SESSION": {
+    "USA": "Do you want delete session",
+    "VNM": "Bạn có muốn xóa phần"
+  },
+  "REQUIRE": {
+    "USA": "require",
+    "VNM": "bắt buộc"
+  },
+  "QUESTION": {
+    "USA": "Question",
+    "VNM": "Câu hỏi"
+  },
+  "CONTENT": {
+    "USA": "Content",
+    "VNM": "Nội dung"
+  },
+  "TYPE_QUESTION_COLUMNS": {
+    "USA": "Type question",
+    "VNM": "Loại câu hỏi"
+  },
+  "TOTAL_ANSWER": {
+    "USA": "Total answer",
+    "VNM": "Tổng câu trả lời"
+  },
+  "ANSWER": {
+    "USA": "Answer",
+    "VNM": "Câu trả lời"
+  },
+  "CHOOSE_QUESTION": {
+    "USA": "Choose question",
+    "VNM": "Chọn loại câu hỏi"
+  },
+  "ADD_ANSWER": {
+    "USA": "Add answer",
+    "VNM": "Thêm câu trả lời"
+  },
+  "ADD_QUESTION": {
+    "USA": "Add question",
+    "VNM": "Thêm câu hỏi"
+  },
+  "LIST_QUESTION_OF": {
+    "USA": "List question of ",
+    "VNM": "Danh sách câu hỏi của "
+  },
+  "REMOVE": {
+    "USA": "Remove",
+    "VNM": ""
+  },
+  "ADD_QUESTION_SESSION": {
+    "USA": "Add questions to the session",
+    "VNM": "Thêm các câu hỏi vào phần"
+  },
+  "DELETE_QUESTION": {
+    "USA": "Delete question",
+    "VNM": "Xóa câu hỏi"
+  },
+  "CONFIRM_DELETE_QUESTION": {
+    "USA": "Do you want delete question",
+    "VNM": "Bạn có muốn xóa câu hỏi"
+  },
+  "DELETE_QUESTION_IN_SESSION": {
+    "USA": "Delete question in section",
+    "VNM": "Xóa câu hỏi trong phần"
+  },
+  "CONFIRM_DELETE_QUESTION_IN_SESSION": {
+    "USA": "Do you want delete question in session",
+    "VNM": "Bạn có muốn xóa câu hỏi trong phần"
+  },
+  "ORDER": {
+    "USA": "Order",
+    "VNM": "Thứ tự"
+  },
+  "EMPTY_QUESTION": {
+    "USA": "No question",
+    "VNM": "Không có câu hỏi"
+  },
+  "ASSIGN": {
+    "USA": "Assign",
+    "VNM": "Phân công"
+  },
+  "LABEL_CHOOSE_USER": {
+    "USA": "Choose user",
+    "VNM": "Chọn tài khoản"
+  },
+  "TITLE_MODAL_ASSIGN": {
+    "USA": "Assignment session for user",
+    "VNM": "Phân công session cho tài khoản"
+  }
+}

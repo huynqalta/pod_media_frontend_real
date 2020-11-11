@@ -1,0 +1,29 @@
+//Breadcrumb
+@import "../../../assets/scss/_variables.scss";
+.ant-breadcrumb {
+  font-size: 18px !important;
+  font-weight: 500;
+  .ant-breadcrumb-item {
+    &:hover {
+      color: $color-theme;
+    }
+  }
+  .ant-breadcrumb-link {
+    color: $color-theme;
+  }
+  .ant-dropdown-trigger.ant-breadcrumb-overlay-link {
+    .ant-breadcrumb-link {
+      color: rgba(0, 0, 0, 0.45) !important;
+      &:hover {
+        color: $color-theme;
+      }
+    }
+  }
+  span.ant-dropdown-trigger.ant-breadcrumb-overlay-link {
+    span.anticon.anticon-down {
+      display: none !important;
+    }
+  }
+}
+
+//end-breadCrumd

@@ -1,0 +1,110 @@
+.locationPage {
+    .d-flex.align-items-center.header-custom-collapse {
+        justify-content: space-between;
+        width: 100%;
+
+        .action_Colappse {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            button {
+                margin-right: 1.5vw;
+            }
+        }
+
+        svg.svg-inline--fa.fa-map.fa-w-18 {
+            color: #1d8bca;
+            font-size: 24px;
+        }
+    }
+
+    .ant-card.ant-card-bordered {
+        border-radius: 22px;
+
+        &.leftCard {
+            width: 22vw;
+            margin: auto;
+            height: auto;
+            border-radius: 22px;
+            margin-bottom: 1vw;
+
+            &.image {
+                .ant-card-body {
+                    padding: 0px;
+                }
+            }
+
+            .inforLocation {
+                .rowDetails {
+                    display: flex;
+                    justify-content: space-between;
+
+                    p {
+                        font-size: 16px;
+                        line-height: 19.54px;
+                        font-weight: 700;
+
+                    }
+
+                    span {
+                        font-size: 16px;
+                        color: #6cb6dd;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .titleDetails {
+                display: flex;
+                justify-content: space-between;
+
+                h6 {
+                    font-size: 24px;
+                    line-height: 29px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .collapse_Location {
+            h6 {
+                font-size: 24px;
+                font-weight: bold;
+                line-height: 29px;
+                color: #333333;
+            }
+        }
+    }
+
+    button.ant-btn {
+        border-radius: 999px;
+        color: #1d8bca;
+        border: 1px solid #1d8bca;
+        background: none;
+
+        &:hover {
+            background: #1d8bca;
+            border-radius: 999px;
+            color: white;
+        }
+    }
+
+    button.ant-btn.ant-btn-primary {
+        background: #1d8bca;
+        border-radius: 999px;
+        color: white;
+        width: 120px;
+        height: 44px;
+
+        &:hover {
+            color: #1d8bca;
+            border: 1px solid #1d8bca;
+            background-color: white;
+        }
+    }
+
+    .ant-card-body {
+        padding: 15px;
+    }
+}

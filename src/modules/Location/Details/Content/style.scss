@@ -1,0 +1,26 @@
+.show-statistic {
+  animation: ShowStatistic 0.3s 1;
+}
+@keyframes ShowStatistic {
+  0% {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+.show-detail {
+  animation: ShowDetail 0.3s 1;
+}
+@keyframes ShowDetail {
+  0% {
+    transform: translateX(-120%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}

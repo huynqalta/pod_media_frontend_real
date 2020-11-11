@@ -1,0 +1,34 @@
+.circle {
+  border: 2px solid var(--bg-collapse-1);
+  width: 191px;
+  height: 191px;
+  border-radius: 50%;
+  padding: 15px;
+  &-content {
+    background: var(--bg-collapse-1);
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h6,
+    strong {
+      margin: 0;
+      color: var(--color-blue);
+    }
+    h6 {
+      font-size: 50px;
+      line-height: 40px;
+    }
+    strong {
+      font-size: 21px;
+    }
+  }
+}
+
+.circle-yellow {
+  border: 2px solid var(--bg-collapse-2);
+  &-content {
+    background: var(--bg-collapse-2);
+  }
+}

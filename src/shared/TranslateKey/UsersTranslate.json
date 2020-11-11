@@ -1,0 +1,38 @@
+{
+  "USER": {
+    "USA": "User",
+    "VNM": "Tài khoản"
+  },
+  "ADD_USER": {
+    "USA": "Add User",
+    "VNM": "Thêm tài khoản"
+  },
+  "UPDATE_AT": {
+    "USA": "Update At",
+    "VNM": "Thời gian cập nhật"
+  },
+  "ADD": {
+    "USA": "Add",
+    "VNM": "Thêm"
+  },
+  "CANCEL": {
+    "USA": "Cancel",
+    "VNM": "Trở về"
+  },
+  "DASHBOARD": {
+    "USA": "Dashboard",
+    "VNM": "Trang chủ"
+  },
+  "PASSWORD": {
+    "USA": "Password",
+    "VNM": "Mật khẩu"
+  },
+  "CONFIRM_DELETE_USER": {
+    "USA": "Do you want delete user ",
+    "VNM": "Bạn có muốn xóa Người Dùng  "
+  },
+  "TITLE_DELETE_USER": {
+    "USA": "Delete user",
+    "VNM": "Xóa Người Dùng"
+  }
+}

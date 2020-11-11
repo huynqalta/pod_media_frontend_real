@@ -1,0 +1,213 @@
+@import "../assets/scss/_variables.scss";
+@import "./font.scss";
+//card
+.ant-layout {
+  font-family: "Helvetica Neue" !important;
+  background: #fafbfc;
+}
+.ant-card {
+  font-family: "Helvetica Neue" !important;
+  background: #ffffff;
+}
+.ant-table-title {
+  font-family: "Helvetica Neue" !important;
+  padding-top: 0;
+}
+//end-card
+//table
+.ant-table {
+  font-family: "Helvetica Neue" !important;
+  font-size: 16px;
+}
+.ant-table-thead > tr > th {
+  font-family: "Helvetica Neue" !important;
+  text-transform: capitalize;
+  font-weight: 600 !important;
+}
+//pagination
+.ant-pagination-item {
+  font-family: "Helvetica Neue" !important;
+  font-weight: 500;
+  background: #ffffff !important;
+  border-color: none !important;
+  color: #333 !important;
+  // padding: 6px 11px !important;
+  height: auto !important;
+  // font-size: 16px !important;
+
+  &-active {
+    background: $color-theme !important;
+    border-color: transparent !important;
+    color: #fafbfc !important;
+  }
+}
+
+//ant-pagination
+
+.ant-pagination-item {
+  font-weight: 500;
+  background: none !important;
+  border-color: none !important;
+  color: #828282 !important;
+  border: none;
+  height: auto !important;
+
+  &-active , &:focus , &:hover {
+    background: #8DC6E4 !important;
+    border-color: transparent !important;
+    color: #ffffff !important;
+    & a{
+      color: #ffffff !important;
+    }
+  }
+}
+
+
+.ant-select-single .ant-select-selector .ant-select-selection-item,
+.ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+  line-height: 37px !important;
+}
+
+.ant-pagination-prev:focus .ant-pagination-item-link,
+.ant-pagination-next:focus .ant-pagination-item-link,
+.ant-pagination-prev:hover .ant-pagination-item-link,
+.ant-pagination-next:hover .ant-pagination-item-link {
+  color: #333 !important;
+  border-color: none !important;
+}
+.ant-btn.ant-pagination-item-link{
+  line-height: 1 !important;
+  border: none !important;
+  color: #6CB6DD !important;
+  font-size: 18px !important;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &[disabled]:hover, &:hover{
+    color: #6CB6DD !important;
+    background: transparent;
+  }
+}
+
+
+
+
+
+
+
+//end-pagination
+//end-table//
+// Input
+.ant-input,
+.ant-input-number {
+  line-height: 1.8715 !important;
+  border-radius: 5px !important;
+  // height: 45px !important;
+  // font-weight: 400 !important;
+  // font-size: 1rem;
+  // border: 0;
+  // background: #f0f1f3 !important;
+  // color: $color-text-dark;
+}
+.ant-input-number-input {
+  height: 36px !important;
+}
+
+//modal-button
+.ant-modal-root {
+  .ant-btn {
+    font-weight: 500;
+  }
+  .ant-btn.ant-btn-primary {
+    background: $color-theme;
+    border-color: $color-theme;
+    color: $text-color-theme;
+  }
+}
+
+//title-table
+.ant-table-title {
+  background: #fafbfc !important;
+  display: none !important;
+}
+
+//datepicker
+.ant-picker {
+  border: none !important;
+  background: transparent !important;
+  &-input {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    input {
+      color: #181818 !important;
+      opacity: 0.5 !important;
+    }
+  }
+  &-suffix {
+    margin: 0 7px !important;
+    svg {
+      font-size: 18px !important;
+      color: #1d8bca !important;
+    }
+  }
+  &-header {
+    border-bottom: none !important;
+    padding: 12px !important;
+    button {
+      color: var(--color-hover-active) !important;
+    }
+  }
+  &-cell {
+    padding: 8px 0 !important;
+  }
+  &-content {
+    tr {
+      th {
+        color: var(--color-hover-active) !important;
+        font-weight: 500 !important;
+      }
+    }
+  }
+  &-focused,
+  &:focus {
+    box-shadow: none !important;
+  }
+  &-dropdown {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+  }
+}
+
+.ant-picker-week-panel-row-selected td,
+.ant-picker-week-panel-row-selected:hover td {
+  background: var(--border-blue) !important;
+  &:first-child {
+    border-top-left-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+  }
+  &:last-child {
+    border-top-right-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+  }
+}
+
+//form lable antd
+.ant-form-item-label > label::before{
+  position: absolute;
+  right: -16px;
+}
+.anticon.anticon-close.ant-tag-close-icon{
+  vertical-align: 0.125em;
+}
+.ant-select-multiple {
+  .ant-select-selection-item-remove {
+    .anticon{
+      vertical-align: 0.1em!important;
+    }
+  }
+}//ant-buton
+.ant-btn:focus{
+  border: 1px solid #ffffff !important;
+  outline: 1px solid $color-theme !important;
+}

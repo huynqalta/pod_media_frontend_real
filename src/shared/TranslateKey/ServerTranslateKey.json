@@ -1,0 +1,301 @@
+{
+  "ShowAllSuccess": {
+    "VNM": "Hiển thị thành công.",
+    "USA": "Show all success"
+  },
+
+  "StoredHistoryUserMedicalSuccess": {
+    "VNM": "Tạo lịch sử thành công.",
+    "USA": "Stored history success"
+  },
+
+  "CanNotFoundHistoryId": {
+    "VNM": "Lịch sử không tồn tại .",
+    "USA": "Can not found history id."
+  },
+
+  "ShowDetailHistorySuccess": {
+    "VNM": "Hiện thị chi tiết lịch sử thành công.",
+    "USA": "Show detail history success"
+  },
+
+  "BmiRequired": { "VNM": "Bmi là trường bắt buộc", "USA": "Bmi is required" },
+
+  "TitleRequired": {
+    "VNM": "Tiêu đề là trường bắt buộc",
+    "USA": "Title is required"
+  },
+
+  "TempRequired": {
+    "VNM": "Nhiệt độ là trường bắt buộc",
+    "USA": "Temp is required"
+  },
+
+  "SbpRequired": { "VNM": "Sbp là trường bắt buộc", "USA": "Sbp is required" },
+
+  "DbpRequired": { "VNM": "Dbp là trường bắt buộc", "USA": "Dbp is required" },
+
+  "WeightRequired": {
+    "VNM": "Cân nặng là trường bắt buộc",
+    "USA": "Weight is required"
+  },
+
+  "HeightRequired": {
+    "VNM": "Chiệu cao là trường bắt buộc",
+    "USA": "Height is required"
+  },
+
+  "HeartRequired": {
+    "VNM": "Nhịp tim là trường bắt buộc",
+    "USA": "Heart is required"
+  },
+
+  "DeviceNotFound": {
+    "VNM": "Không tìm thấy thiết bị ",
+    "USA": "Device not found."
+  },
+
+  "ShowDetail": { "VNM": "Hiển thị thành công.", "USA": "Show detail success" },
+
+  "AddDeviceSuccess": {
+    "VNM": "Thêm thiết bị thành công.",
+    "USA": "Add device success"
+  },
+
+  "UpdateDeviceSuccess": {
+    "VNM": "Cập nhật thiết bị thành công.",
+    "USA": "Update device success"
+  },
+
+  "ShowListLogSuccess": {
+    "VNM": "Hiển thị lịch sử thiết bị thành công",
+    "USA": "Show all log success"
+  },
+
+  "DeviceNameRequired": {
+    "VNM": "Tên thiết bị là bắt buộc.",
+    "USA": "Device name is required"
+  },
+
+  "MaxlengthDeviceName255": {
+    "VNM": "Tên thiết bị không quá 255 ký tự.",
+    "USA": "DeviceName max length 255 "
+  },
+
+  "LatitudeRequired": {
+    "VNM": "Latitude là bắt buộc.",
+    "USA": " Latitude is required"
+  },
+
+  "LongitudeRequired": {
+    "VNM": "Longitude là bắt buộc.",
+    "USA": "Longitude is required"
+  },
+
+  "DeviceIdRequired": {
+    "VNM": "Id thiết bị bắt buộc.",
+    "USA": "Device id is required"
+  },
+
+  "ContentRequired": {
+    "VNM": "Nội dung bắt buộc.",
+    "USA": "Content is required"
+  },
+
+  "Moudle": "Customer",
+  "Error": {
+    "VNM": "Lỗi ",
+    "USA": "Error"
+  },
+  "FaceDetectFail": {
+    "VNM": "Không thể nhận diện khuôn mặt",
+    "USA": "Face Detect Fail"
+  },
+
+  "CustomerNotFound": {
+    "VNM": "Không tìm thấy khác hàng.",
+    "USA": "Custormer not found."
+  },
+
+  "ImageRequired": {
+    "VNM": "Hình ảnh bắt buộc.",
+    "USA": "Image is required"
+  },
+
+  "UpdateCustomerSuccess": {
+    "VNM": "Cập nhật thông tin khách hàng thành công.",
+    "USA": "Update customer success"
+  },
+
+  "DeleteCustomerSuccess": {
+    "VNM": "Xóa khách hàng thành công",
+    "USA": "Delete customer success"
+  },
+
+  "ShowListCustomerSuccess": {
+    "VNM": "Hiện thị danh sách khác hàng thành công.",
+    "USA": "Show list customer success"
+  },
+
+  "CustomerCodeRequired": {
+    "VNM": "Mã khách hàng là bắt buộc.",
+    "USA": "Custormer code is required"
+  },
+
+  "CustomerNameRequired": {
+    "VNM": "Tên khách hàng là bắt buộc ",
+    "USA": "Customer name is required"
+  },
+
+  "CustomerAgeRequired": {
+    "VNM": "Tuổi khách hàng là bắt buộc ",
+    "USA": "Customer age is required"
+  },
+
+  "CustomerGenderRequired": {
+    "VNM": "Giới tính là bắt buộc",
+    "USA": "Customer gender is required"
+  },
+
+  "CustomerAddressRequired": {
+    "VNM": "Địa chỉ là bắt buộc.",
+    "USA": "Customer address is required"
+  },
+
+  "PhoneNumberRequired": {
+    "VNM": "Số điện thoại là bắt buộc.",
+    "USA": "Phone number is required"
+  },
+
+  "NotAValidPhoneNumber": {
+    "VNM": "Số điện thoại không đúng.",
+    "USA": "Phone number not avalid"
+  },
+
+  "CustomerImageRequired": {
+    "VNM": "Hình đại diện là bắt buộc.",
+    "USA": "Customer image is required"
+  },
+
+  "Success": {
+    "VNM": "Thành công",
+    "USA": "Success"
+  },
+  "success": {
+    "VNM": "Thành công",
+    "USA": "Success"
+  },
+
+  "KeyDoesNotExist": {
+    "VNM": "Key không tồn tại",
+    "USA": "Key not exist"
+  },
+
+  "PasswordIncorrect": {
+    "VNM": "Mật khẩu không đúng",
+    "USA": "Incorrect password"
+  },
+
+  "UserNotExist": {
+    "VNM": "Người dùng không tồn tại",
+    "USA": "User not exist"
+  },
+
+  "ConfirmPasswordNotMatch": {
+    "VNM": "Mật khẩu và xác nhận mật khẩu không khớp",
+    "USA": "Confirm and  password not match"
+  },
+
+  "LoginSuccess": {
+    "VNM": "Đăng nhập thành công",
+    "USA": "Login success"
+  },
+
+  "UserAreadlyExist": {
+    "VNM": "Người dùng đã tồn tại",
+    "USA": "User areadly exist"
+  },
+
+  "AddUserSuccess": {
+    "VNM": "Thêm người dùng thành công",
+    "USA": "Add user success"
+  },
+
+  "EmailAreadlyExist": {
+    "VNM": "Email đã tồn tại",
+    "USA": "Email areadly exist"
+  },
+
+  "UpdateSuccessful": {
+    "VNM": "Cập nhật thành công",
+    "USA": "Update success"
+  },
+  "ErrorServer": {
+    "VNM": "Lỗi hệ thống không xác định",
+    "USA": "System error"
+  },
+  "default": {
+    "VNM": "Lỗi không xác định",
+    "USA": "Some thing was wrong"
+  },
+  "Authentication": {
+    "VNM": "Xác thực không hợp lệ",
+    "USA": "Some thing was wrong"
+  },
+  "AddGroupDeviceSuccess": {
+    "VNM": "Thêm nhóm thiết bị thành công!",
+    "USA": "Add Group Device Success!"
+  },
+  "DeleteGroupDeviceSuccess": {
+    "VNM": "Xoá nhóm thiết bị thành công!",
+    "USA": "Delete Group Device Success!"
+  },
+  "DeviceNotActived": {
+    "VNM": "Thiết bị chưa được kích hoạt",
+    "USA": "Device not actived"
+  },
+  "DeviceExistedInGroup": {
+    "VNM": "Thiết bị đã tồn tại!",
+    "USA": "Device existed in group!"
+  },
+  "DeviceExistedInUser": {
+    "VNM": "Thiết bị đã có trong tài khoản này!",
+    "USA": "Device existed in user!"
+  },
+  "AssignSuccess": {
+    "VNM": "Thêm thiết bị thành công!",
+    "USA": "Assign device success!"
+  },
+  "CreateGroupCodeSuccess": {
+    "VNM": "Tạo Nhóm Mã Thành Công!",
+    "USA": "Create Group Code Success!"
+  },
+  "DeleteGroupCodeSuccess": {
+    "VNM": "Xóa Nhóm Mã Thành Công!",
+    "USA": "Delete Group Code Success!"
+  },
+  "DeleteGroupDeviceUserSuccess":{
+    "USA": "Remove a device from the group success!",
+    "VNM": "Xoá thiết bị khỏi nhóm thành công!"
+  },
+  "DeleteDeviceSuccess":{
+    "USA": "Delete Device Success!",
+    "VNM": "Xoá thiết thành công!"
+  },
+  "createShareGroupCodeSuccess":{
+    "USA": "Assign User Success!",
+    "VNM": "Đăng Ký Thành Viên Thành Công!"
+  },
+  "EditGroupCodeSuccess":{
+    "USA": "Update Campaign Code Success!",
+    "VNM": "Cập nhật Bộ Mã Chiến Dịch Thành Công!"
+  },
+  "ImportFaild":{
+    "USA": "Import Faild!",
+    "VNM": "Nhập tập tin thất bại!"
+  },
+  "ImportSuccess":{
+    "USA": "Import Success!",
+    "VNM": "Nhập tập tin thành công!"
+  }
+}

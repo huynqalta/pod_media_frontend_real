@@ -1,0 +1,92 @@
+@import "../../../assets/scss/variables";
+
+.wrap-input-component {
+  width: auto;
+  position: relative;
+
+  .message-require {
+    color: $color-required;
+
+    font-weight: 600;
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+
+    margin-top: 5px;
+  }
+  .message-require.error {
+    opacity: 1 !important;
+    transition: all 0.3s ease-in-out;
+  }
+  .custom-input.error {
+    border: 1px solid $color-required;
+  }
+  .box-border-bottom.error {
+    background-color: $color-required !important;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  .box-border-bottom {
+    display: none;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    background-color: #042954;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .box-border-bottom-error {
+    background-color: $color-required;
+    color: $color-required;
+  }
+  .custom-input:focus + .box-border-bottom {
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+  }
+
+  .custom-input {
+    // background: #f2f2f2 !important;
+    border-radius: 4px !important;
+    height: 45px !important;
+    font-weight: 400 !important;
+    font-size: 1rem;
+    border: 0;
+    background: #f0f1f3 !important;
+    //color: $color-text-dark;
+    &:focus {
+      // font-size: 1rem;
+      background: #f2f2f2;
+      box-shadow: 0 0 0 0 transparent;
+      // border-color: #40a9ff !important;
+    }
+
+    &::placeholder {
+      font-weight: 400;
+      font-size: 1rem;
+      color: #495057bd;
+    }
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    //@media only screen and (max-width: 768px) {
+    //  height: calc(1.5rem + 7px) !important;
+    //}
+  }
+  .labelInput {
+    white-space: nowrap;
+    display: inline-block;
+    min-width: 300px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}

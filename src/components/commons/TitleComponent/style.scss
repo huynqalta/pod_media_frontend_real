@@ -1,0 +1,14 @@
+.heading-layout1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 30px;
+}
+.heading-layout1 .item-title h3 {
+  color: #111111;
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 22px;
+}

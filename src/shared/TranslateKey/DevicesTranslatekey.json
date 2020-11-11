@@ -1,0 +1,164 @@
+{
+  "TITLE": {
+    "USA": "List Device",
+    "VNM": "Danh Sách Thiết Bị"
+  },
+  "GROUP_DEVICE": {
+    "USA": "Group Device",
+    "VNM": "Nhóm Thiết Bị"
+  },
+  "ADD_DEVICE": {
+    "USA": "Add Device",
+    "VNM": "Thêm Thiết Bị"
+  },
+  "EDIT_DEVICE": {
+    "USA": "Edit Device",
+    "VNM": "Sửa Thiết Bị"
+  },
+
+  "DEVICE_NAME": {
+    "USA": "Device Name",
+    "VNM": "Tên Thiết Bị"
+  },
+  "DEVICE_TYPE": {
+    "USA": "Device Type",
+    "VNM": "Loại Thiết Bị"
+  },
+  "LATITUDE": {
+    "USA": "Latitude",
+    "VNM": "Vĩ Độ"
+  },
+  "LONGITUDE": {
+    "USA": "Longitude",
+    "VNM": "Kinh Độ"
+  },
+  "STATUS": {
+    "USA": "Status",
+    "VNM": "Trạng Thái"
+  },
+  "SETTING": {
+    "USA": "Setting",
+    "VNM": "Cài đặt"
+  },
+  "ACTIVE": {
+    "USA": "Active",
+    "VNM": "Kích hoạt"
+  },
+  "UPDATED_AT": {
+    "USA": "Updated At",
+    "VNM": "Ngày Cập Nhật"
+  },
+  "ACTION": {
+    "USA": "Action",
+    "VNM": "Thao Tác"
+  },
+  "VIEW_DETAIL": {
+    "USA": "Detail",
+    "VNM": "Chi Tiết"
+  },
+  "UPDATE": {
+    "USA": "Edit",
+    "VNM": "Sửa"
+  },
+  "DELETE": {
+    "USA": "Delete",
+    "VNM": "Xóa"
+  },
+  "CONFIRM_DELETE": {
+    "USA": "Do you want delete device ",
+    "VNM": "Bạn có muốn xóa thiết bị "
+  },
+  "TITLE_DELETE": {
+    "USA": "Delete Device",
+    "VNM": "Xóa Thiết Bị"
+  },
+  "CANCEL": {
+    "USA": "Cancel",
+    "VNM": "Hủy"
+  },
+  "REQUIRE": {
+    "USA": "is require!",
+    "VNM": "không được để trống!"
+  },
+  "DEACTIVE": {
+    "USA": "Deactive",
+    "VNM": "Không Hoạt Động"
+  },
+  "SHOW_CODE": {
+    "USA": "Activation code",
+    "VNM": "Hiển thị Mã"
+  },
+  "DES_ACTIVE": {
+    "USA": "Activation code of divice",
+    "VNM": "Mã code kích hoạt của"
+  },
+  "KEY": {
+    "USA": "Key",
+    "VNM": "Khóa"
+  },
+  "VALUE": {
+    "USA": "Value",
+    "VNM": "Giá trị"
+  },
+  "KEY_REQUIRED": {
+    "USA": "Key is require!",
+    "VNM": "Khóa không được để trống!"
+  },
+  "KEY_DOUBLE": {
+    "USA": "Key is duplicated. Please enter another key!",
+    "VNM": "Khóa bị trùng. Vui lòng nhập khóa khác!"
+  },
+  "VALUE_REQUIRED": {
+    "USA": "Value is require!",
+    "VNM": "Giá trị không được để trống!"
+  },
+  "ADD_SETTING": {
+    "USA": "Add setting",
+    "VNM": "Thêm cài đặt!"
+  },
+  "TITLE_DEL_GROUP_DEVICE": {
+    "USA": "Delete group device",
+    "VNM": "Xoá nhóm thiết bị"
+  },
+  "TITLE_CONFIRM": {
+    "USA": "Are you sure delete group device",
+    "VNM": "Bạn có chắc chắn xóa nhóm thiết bị"
+  },
+  "TITLE_MODAL_GROUP_DEVICE": {
+    "USA": "Add new group device",
+    "VNM": "Thêm mới nhóm thiết bị"
+  },
+  "ADD_GROUP": {
+    "USA": "Add group",
+    "VNM": "Thêm nhóm"
+  },
+  "DEVICE_GROUP_NAME":{
+    "USA": "Device group name",
+    "VNM": "Tên nhóm thiết bị"
+  },
+  "CREATED":{
+    "USA": "Created",
+    "VNM": "Khởi tạo"
+  },
+  "REMOVE":{
+    "USA": "Remove a device from the group?",
+    "VNM": "Xoá thiết bị khỏi nhóm?"
+  },
+  "REMOVE_DEVICE":{
+    "USA": "Are you sure remove a device",
+    "VNM": "Bạn có muốn xoá thiết bị"
+  },
+  "TITLE_DEL_DEVICE":{
+    "USA": "from the group?",
+    "VNM": "khỏi nhóm?"
+  },
+  "SET_OF_CODE":{
+    "USA": "Set of code",
+    "VNM": "Tên bộ code"
+  },
+  "SET_OF_SURVEY":{
+    "USA": "Set of survey",
+    "VNM": "Tên bộ khảo sát"
+  }
+
+}

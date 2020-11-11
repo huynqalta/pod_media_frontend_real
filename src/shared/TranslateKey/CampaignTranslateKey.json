@@ -1,0 +1,175 @@
+{
+  "TITLE": {
+    "USA": "List Code Set",
+    "VNM": "Danh Sách Bộ Code"
+  },
+  "ADD_CAMPAIGN": {
+    "USA": "Add Campaign",
+    "VNM": "Thêm Chiến Dịch"
+  },
+  "EDIT_CAMPAIGN": {
+    "USA": "Edit Campaign",
+    "VNM": "Sửa Chiến Dịch"
+  },
+
+  "CAMPAIGN_NAME": {
+    "USA": "Campaign Name",
+    "VNM": "Tên Chiến Dịch"
+  },
+ 
+  "STATUS": {
+    "USA": "Status",
+    "VNM": "Trạng Thái"
+  },
+  "ACTIVE": {
+    "USA": "Active",
+    "VNM": "Kích hoạt"
+  },
+  "UPDATED_AT": {
+    "USA": "Updated At",
+    "VNM": "Ngày Cập Nhật"
+  },
+  "ACTION": {
+    "USA": "Action",
+    "VNM": "Thao Tác"
+  },
+  "VIEW_DETAIL": {
+    "USA": "Detail",
+    "VNM": "Chi Tiết"
+  },
+  "VIEW_LIST_CODE": {
+    "USA": "View List Code",
+    "VNM": "Xem Danh Sách code"
+  },
+  "UPDATE": {
+    "USA": "Edit",
+    "VNM": "Sửa"
+  },
+  "DELETE": {
+    "USA": "Delete",
+    "VNM": "Xóa"
+  },
+  "CONFIRM_DELETE": {
+    "USA": "Do you want delete campaign ",
+    "VNM": "Bạn có muốn xóa chiến dịch  "
+  },
+  "TITLE_DELETE": {
+    "USA": "Delete Campaign",
+    "VNM": "Xóa Chiến Dịch"
+  },
+  "CANCEL": {
+    "USA": "Cancel",
+    "VNM": "Hủy"
+  },
+  "REQUIRE": {
+    "USA": "is require!",
+    "VNM": "không được để trống!"
+  },
+  "DEACTIVE": {
+    "USA": "Deactive",
+    "VNM": "Không Hoạt Động"
+  },
+ 
+  "CREATED_AT": {
+    "USA": "Created At",
+    "VNM": "Ngày tạo"
+  },
+  "CREATED_By": {
+    "USA": "Created By",
+    "VNM": "Người Tạo"
+  },
+  "IMPORT_CODE": {
+    "USA": "Import Code",
+    "VNM": "Nhập Code"
+  },
+  "CODE_NAME": {
+    "USA": "Code",
+    "VNM": "Code"
+  },
+  "DATE_IMPORT": {
+    "USA": "Date Import",
+    "VNM": "Ngày nhập"
+  },
+  "OWNER": {
+    "USA": "Owner",
+    "VNM": "Người sở hữu"
+  },
+  "ASSIGNMENT": {
+    "USA": "Assignment",
+    "VNM": "Đăng ký người sỡ hữu"
+  },
+  "CAMPAIGN_CREATE_CODE_SET": {
+    "USA": "Create Campaign Code",
+    "VNM": "Tạo Mới Bộ Mã Chiến Dịch "
+  },
+  "CAMPAIGN_UPDATE_CODE_SET": {
+    "USA": "Update Campaign Code",
+    "VNM": "Cập nhật Bộ Mã Chiến Dịch "
+  },
+ 
+  "CAMPAIGN_NAME_REQUIRED": {
+    "USA": "Campaign name is require!",
+    "VNM": "Tên chiến dịch không được để trống!"
+  },
+  "TOTAL_CODE": {
+    "USA": "Total Code",
+    "VNM": "Tổng Mã"
+  },
+  "CODE_USED": {
+    "USA": "Code Used",
+    "VNM": "Mã đã dùng"
+  },
+  "ASSIGN": {
+    "USA": "Assign",
+    "VNM": "Đăng ký"
+  },
+  "EXISTING_GROUP_CODE": {
+    "USA": "Existing members in Code Set",
+    "VNM": "Các thành viên trong bộ mã"
+  },
+  "TITLE_MODAL_REVIEW": {
+    "USA": "Review List Code Import",
+    "VNM": "Xem Trước Danh Sách Nhập Mã"
+  },
+  "ASSIGN_PERSON":{
+    "USA": "Assign User Success!",
+    "VNM": "Đăng Ký Thành Viên Thành Công!"
+  },
+  "DATE_USE":{
+    "USA": "Date Used",
+    "VNM": "Ngày Sử Dụng"
+  },
+  "DEVICE_USED":{
+    "USA": "Device Used",
+    "VNM": "Thiết Bị Sử Dụng"
+  },
+  "SCANED":{
+    "USA":"Scaned",
+    "VNM": "Đã Quét"
+  },
+  "NEW":{
+    "USA":"New",
+    "VNM": "Mới"
+  },
+  "EXISTED":{
+    "USA":"Existed",
+    "VNM": "Đã tồn tại"
+  },
+  "DUPLICATE":{
+    "USA":"Duplicate",
+    "VNM": "Trùng Lặp"
+  },
+  "SELECTED":{
+    "USA":"Selected",
+    "VNM": "Đã Chọn"
+  },
+  "ITEMS":{
+    "USA":"Item",
+    "VNM": "Item"
+  },
+  "IMPORT_CODE_FAIL":{
+    "USA":"Some Code is exist in system or duplicate. Please check again!",
+    "VNM":"Một vài code đã tồn tại trong hệ thống hoặc bị trùng lặp. Vui lòng kiểm tra lại!"
+  }
+
+}

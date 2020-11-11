@@ -1,0 +1,55 @@
+{
+  "CHANGE_PASSWORD": {
+    "USA": "Change password",
+    "VNM": "Đổi mật khẩu"
+  },
+  "LOG_OUT": {
+    "USA": "Log out",
+    "VNM": "Đăng xuất"
+  },
+  "ADD":{
+    "USA": "Add",
+    "VNM": "Thêm"
+  },
+  "CREATE":{
+    "USA": "Create",
+    "VNM": "Tạo"
+  },
+  "UPDATE":{
+    "USA": "Update",
+    "VNM": "Cập Nhật"
+  },
+  
+  "CANCEL":{
+    "USA": "Cancel",
+    "VNM": "Hủy"
+  },
+  "EDIT":{
+    "USA": "Edit",
+    "VNM": "Sửa"
+  },
+  "SAVE":{
+    "USA": "Save",
+    "VNM": "Lưu"
+  },
+  "PLEASE_SELECT":{
+    "USA": "Please Select",
+    "VNM": "Vui lòng chọn"
+  },
+  "DES_IMPORT_FAIL":{
+    "USA":"Some Code Import is exist in system or duplicate. Please check again!",
+    "VNM":"Một vài mã nhập vào đã tồn tại trong hệ thống hoặc trùng nhau. Vui lòng kiểm tra lại!!!"
+  },
+  "CHOOSE_FILE":{
+    "USA":"Choose File",
+    "VNM": "Chọn Tập Tin"
+  },
+  "IMPORT_CODE_FAIL":{
+    "USA":"Import Faild",
+    "VNM": "Nhập tập thất bại"
+  },
+  "UPDATE_STATUS_SUCCESS":{
+    "USA":"Update Status Success",
+    "VNM": "Cập Nhật Trang Thái Thành Công"
+  }
+}

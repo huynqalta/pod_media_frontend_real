@@ -1,0 +1,26 @@
+/* #nprogress .bar {
+  background: #2299dd;
+}
+
+#nprogress .spinner {
+  background: transparent !important;
+}
+
+#nprogress .spinner .spinner-icon {
+  width: 18px;
+  height: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: solid 3px transparent;
+  border-top-color: #2299dd;
+  border-left-color: #2299dd;
+  border-radius: 50%;
+}
+
+#nprogress .spinner .spinner-icon:first-child {
+  -webkit-box-shadow: 0 3px 3px 0 transparent;
+          box-shadow: 0 3px 3px 0 transparent;
+  left: 100%;
+  top: 135px;
+} */
+/*# sourceMappingURL=NProgress.Styles.css.map */

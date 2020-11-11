@@ -1,0 +1,54 @@
+{
+  "LOGIN": {
+    "USA": "LOGIN",
+    "VNM": "Đăng nhập"
+  },
+  "FORGOT": {
+    "USA": "Forgot password",
+    "VNM": "Quên mật khẩu"
+  },
+  "MESS_EMAIL": {
+    "USA": "Please input email!",
+    "VNM": "Vui lòng nhập email!"
+  },
+  "MESS_USERNAME": {
+    "USA": "Please input username!",
+    "VNM": "Vui lòng nhập tài khoản!"
+  },
+  "MESS_PASS": {
+    "USA": "Please input password!",
+    "VNM": "Vui lòng nhập mật khẩu!"
+  },
+  "MESS_FORMAT_EMAIL": {
+    "USA": "Wrong format email!",
+    "VNM": "Định dạng email không chính xác!"
+  },
+  "SEND": {
+    "USA": "SEND",
+    "VNM": "Gửi"
+  },
+  "BACK_LOGIN": {
+    "USA": "Back to login",
+    "VNM": "Quay lại đăng nhập"
+  },
+  "RECOVER": {
+    "USA": "Recover your password",
+    "VNM": "Khôi phục mật khẩu"
+  },
+  "LINK_RECOVER": {
+    "USA": "Link recover your password will be send to your email.",
+    "VNM": "Đường dẫn khôi phục mật khẩu sẽ được gửi đến email của bạn."
+  },
+  "USER": {
+    "USA": "Username",
+    "VNM": "Tài khoản"
+  },
+  "PASS": {
+    "USA": "Password",
+    "VNM": "Mật khẩu"
+  },
+  "DES": {
+    "USA": "Please input username and password to login.",
+    "VNM": "Vui lòng nhập tài khoản và mật khẩu để đăng nhập."
+  }
+}

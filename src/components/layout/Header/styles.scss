@@ -1,0 +1,47 @@
+@import "../../../assets/scss/_variables.scss";
+
+$color-theme-sidebar: #fafbfc;
+$font-size: 24px;
+$height: 60px;
+.headerComponent {
+  background: $color-theme-sidebar !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  height: $height !important;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05),
+    0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+
+  .icon-custom {
+    color: $color-theme;
+    font-size: $font-size;
+    font-weight: 600;
+  }
+  .logo {
+    &.collapsed {
+      width: 80px;
+      img {
+        display: none;
+      }
+      .anticon-close {
+        padding-left: 7px;
+      }
+    }
+    width: calc(225px - 1.5rem) !important;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    img {
+      height: 100%;
+      object-fit: contain;
+      padding: 8px 0;
+    }
+  }
+}
+
+.ant-dropdown-menu-item > a.active {
+  background: $color-theme;
+  color: #fafbfc !important;
+}

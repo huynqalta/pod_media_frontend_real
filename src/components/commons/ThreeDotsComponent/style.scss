@@ -1,0 +1,13 @@
+.three-dots {
+  border: none !important;
+  color: #bcbcbc !important;
+  background: transparent !important;
+  font-size: 18px !important;
+  box-shadow: none;
+  &:hover {
+    background: transparent !important;
+  }
+  &:focus {
+    box-shadow: none !important;
+  }
+}

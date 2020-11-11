@@ -1,0 +1,130 @@
+{
+  "VIEW_STATIC": {
+    "USA": " View statistic",
+    "VNM": " Xem thống kê"
+  },
+  "STATIC": {
+    "USA": " Statistic",
+    "VNM": " Thống kê"
+  },
+  "DETAIL": {
+    "USA": " Detail",
+    "VNM": " Chi tiết"
+  },
+  "EDIT": {
+    "USA": "Edit",
+    "VNM": "Chỉnh sửa"
+  },
+  "INACTIVE": {
+    "USA": "Inactive",
+    "VNM": "Không hoạt động"
+  },
+  "ACTIVE": {
+    "USA": "Active",
+    "VNM": "Hoạt động"
+  },
+  "ADD_NEW": {
+    "USA": "Add Location",
+    "VNM": "Thêm địa điểm"
+  },
+  "LOCATION_NAME": {
+    "USA": "Location name",
+    "VNM": "Tên địa điểm"
+  },
+  "ADDRESS": {
+    "USA": "Address",
+    "VNM": "Địa chỉ"
+  },
+  "MARK_MAP": {
+    "USA": "Mark on map",
+    "VNM": "Chọn trên bản đồ"
+  },
+  "CANCEL": {
+    "USA": "Cancel",
+    "VNM": "Trở về"
+  },
+  "SAVE": {
+    "USA": "Save",
+    "VNM": "Lưu"
+  },
+  "LANG": {
+    "USA": "Longitude",
+    "VNM": "Kinh độ"
+  },
+  "LAT": {
+    "USA": "Latitude",
+    "VNM": "Vĩ độ"
+  },
+  "DATE_INSTALLATION": {
+    "USA": "Date of installation",
+    "VNM": "Ngày cài đặt"
+  },
+  "STATUS": {
+    "USA": "Status",
+    "VNM": "Trạng thái"
+  },
+  "TOTAL": {
+    "USA": "Total",
+    "VNM": "Có tổng"
+  },
+  "SHOWING": {
+    "USA": "Showing",
+    "VNM": "Hiển thị"
+  },
+  "MACHINES": {
+    "USA": "Devices",
+    "VNM": "Thiết bị "
+  },
+  "LAST_UPDATE": {
+    "USA": "Last Update",
+    "VNM": "Ngày cập nhật cuối"
+  },
+  "ADD": {
+    "USA": "Add New",
+    "VNM": "Thêm mới"
+  },
+  "DEVICE": {
+    "USA": "Detail",
+    "VNM": "Chi tiết"
+  },
+  "SETTING": {
+    "USA": "Setting",
+    "VNM": "Cài đặt"
+  },
+  "KEY": {
+    "USA": "Key",
+    "VNM": "Khoá"
+  },
+  "VIEW_ON_MAP": {
+    "USA": "View on map",
+    "VNM": "Xem trên bản đồ"
+  },
+  "DELETE": {
+    "USA": "Delete",
+    "VNM": "Xóa"
+  },
+  "VALUE": {
+    "USA": "Value",
+    "VNM": "Giá trị"
+  },
+  "LIST_LOCATION": {
+    "USA": "List of location",
+    "VNM": "Danh sách địa điểm"
+  },
+  "TYPE": {
+    "USA": "Type",
+    "VNM": "Loại máy"
+  },
+  "LIST_DEVICE": {
+    "USA": "List device",
+    "VNM": "Danh sách thiết bị"
+  },
+  "DAILY_REPORT": {
+    "USA": "Daily Report",
+    "VNM": "Báo cáo hằng ngày"
+  },
+  "MONTHLY_REPORT": {
+    "USA": "Monthly Report",
+    "VNM": "Báo cáo tháng"
+  }
+}
